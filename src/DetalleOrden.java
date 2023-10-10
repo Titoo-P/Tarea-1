@@ -50,6 +50,6 @@ public class DetalleOrden {
 
     // METODO toString
     public String toString() {
-        return "Detalle de la Orden " + this.cantidad + "X " + this.articulo.getNombre() + " " + this.calcPrecio() + " " + this.calcPeso() + "kg";
+        return "Detalle de la Orden " + this.cantidad + "X " + this.articulo.getNombre() + " Precio: " + this.calcPrecio() + " " + this.calcPeso() + "kg";
     }
 }
